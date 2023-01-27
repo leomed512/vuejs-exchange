@@ -11,6 +11,9 @@ import PxHeader from "@/components/PxHeader.vue";
 export default {
   name: "App",
   components: { PxHeader },
+  mounted() {
+    document.title = "Mérida Exchange";
+  },
   data() {
     return {
       links: [
